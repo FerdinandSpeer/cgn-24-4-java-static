@@ -56,22 +56,14 @@ public class Main {
 
         //Step4: Call the .incrementalTotalCount for every object in the class "Count"
         Count.incrementTotalCount();
-        System.out.println(count1.getTotalCount());
-        Count.incrementTotalCount();
-        System.out.println(count2.getTotalCount());
-        Count.incrementTotalCount();
-        System.out.println(count3.getTotalCount());
-        Count.incrementTotalCount();
-        System.out.println(count4.getTotalCount());
-        Count.incrementTotalCount();
-        System.out.println(count5.getTotalCount());
+        System.out.println(Count.getTotalCount());
 
         //Step5: Override to-String method and print it out in the console
-        System.out.println(count1.toString());
-        System.out.println(count2.toString());
-        System.out.println(count3.toString());
-        System.out.println(count4.toString());
-        System.out.println(count5.toString());
+        System.out.println(count1);
+        System.out.println(count2);
+        System.out.println(count3);
+        System.out.println(count4);
+        System.out.println(count5);
 
     }
 }
