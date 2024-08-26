@@ -35,14 +35,14 @@ public class Main {
         System.out.println("______________________");
 
         //Challenge2:
-
+        //Step4: create multiple objects for the class "Count"
         Count count1 = new Count(1);
         Count count2 = new Count(2);
         Count count3 = new Count(3);
         Count count4 = new Count(4);
         Count count5 = new Count(5);
 
-
+        //Step4: Call the .incrementInstanceCount - Methode for every created object
         count1.incrementInstanceCount();
         System.out.println(count1.getInstanceCount());
         count2.incrementInstanceCount();
@@ -54,6 +54,7 @@ public class Main {
         count5.incrementInstanceCount();
         System.out.println(count5.getInstanceCount());
 
+        //Step4: Call the .incrementalTotalCount for every object in the class "Count"
         Count.incrementTotalCount();
         System.out.println(count1.getTotalCount());
         Count.incrementTotalCount();
@@ -65,6 +66,7 @@ public class Main {
         Count.incrementTotalCount();
         System.out.println(count5.getTotalCount());
 
+        //Step5: Override to-String method and print it out in the console
         System.out.println(count1.toString());
         System.out.println(count2.toString());
         System.out.println(count3.toString());

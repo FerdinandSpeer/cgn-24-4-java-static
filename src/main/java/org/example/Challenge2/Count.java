@@ -1,5 +1,5 @@
 package org.example.Challenge2;
-
+//Step1: Create a class with a static variable 'totalCount' and an instance variable 'instanceCount'. Initialize both variables with the value 0.
 public class Count {
     private int instanceCount = 0;
     private static int totalCount = 0;
@@ -33,11 +33,11 @@ public class Count {
     }
 
     //Challenge2:
-    //Step2: static method
+    //Step2: static method for ++1
     public static void incrementTotalCount(){
         totalCount++;
     }
-    //Step 3:
+    //Step 3: instance method for ++1
     public void incrementInstanceCount(){
         instanceCount++;
     }
